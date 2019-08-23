@@ -22,7 +22,7 @@ void main()
 
 	cin>>b;
 
-    area = (a*b)/2;
+        area = (a*b)/2;
 
 	cout<<"el area es: "<<area;
 
