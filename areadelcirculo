@@ -20,7 +20,7 @@ void main()
 
 	cin>>r;
 
-    radio = pow(r,2)*3.1416;
+        radio = pow(r,2)*3.1416;
 
 	cout<<"el radio es: "<<radio;
 
