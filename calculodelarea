@@ -1,0 +1,26 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+float calculodelarea (float l);
+
+void main()
+{
+  float area, l;
+  cout<<"Ingrese el lado:"<<endl;
+  cin>> l;
+  cout<<"El area es:"<<endl;
+  cout<<area;
+   area=calculodelarea(l);
+   getch();
+}
+
+
+float calculodelarea (float l)
+
+{ 
+ float area;
+	area=l+l+l+l;
+	return area;
+}
